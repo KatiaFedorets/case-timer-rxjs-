@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 2px;
+  background:rgb(70, 68, 68);
+  text-align: center;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  width: 80px;
+  margin: 10px;
+  
+}
+
+.button:focus {
+  background: #c47739;
+  
+}
+
+.list_btn{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+ align-self: center;
+  justify-self: center;
+}
