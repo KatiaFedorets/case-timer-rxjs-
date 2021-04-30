@@ -10,9 +10,7 @@ const Timer = () => {
 
   const [time, setTime] = useState(0);
   const [stop, setStop] = useState(0);
-  const [statusQuery, setStatusQuery] = useState('stop');
-  
-        
+  const [statusQuery, setStatusQuery] = useState('stop');    
   const visibleTime = new Date(time).toISOString().slice(11, 19);
 
   useEffect(() => {
